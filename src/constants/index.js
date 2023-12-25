@@ -12,17 +12,9 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
-  docker,
-  postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  followMe,
+  netPc,
+  eventPlanner,
   coverhunt,
   dcc,
   kelhel,
@@ -96,7 +88,7 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
+  /* {
     name: 'Rails',
     icon: rubyrails,
   },
@@ -107,57 +99,64 @@ const technologies = [
   {
     name: 'postgresql',
     icon: postgresql,
-  },
+  }, */
   {
     name: 'git',
     icon: git,
   },
-  {
+  /* {
     name: 'figma',
     icon: figma,
   },
   {
     name: 'docker',
     icon: docker,
-  },
+  }, */
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'IT Technician',
+    company_name: 'Team Source Petroleum',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jan 2019 - Jun 2020',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'HR Coordinator assistant',
+    company_name: 'Team Source Petroleum',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jul 2020 - Apr 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'IT engineer',
+    company_name: 'LABORATOIRE FECHKEUR',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Dec 2021 - Jun 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'IT Freelancer',
+    company_name: 'NetPC Informatique',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Mar 2020 - Nov 2023',
+  },
+  {
+    title: 'Web developer',
+    company_name: 'Freelancer',
+    icon: dcc,
+    iconBg: '#333333',
+    date: 'Jun 2022 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'FollowMeAcademy',
+    description: 'App management of an online school of English courses.',
     tags: [
       {
         name: 'react',
@@ -172,15 +171,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: followMe,
     repo: 'https://github.com/shaqdeff/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'NetPc Services',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A landing page showing services proposed by the company.',
     tags: [
       {
         name: 'react',
@@ -195,77 +194,33 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
+    image: netPc,
     repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    demo: 'https://netpc-f4ad3.web.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Event Planner',
+    description: 'An app for creating and planing events',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
+    image: eventPlanner,
     repo: 'https://github.com/shaqdeff/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+ 
 ];
 
 export { services, technologies, experiences, projects };
