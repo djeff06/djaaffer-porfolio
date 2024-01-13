@@ -139,7 +139,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
@@ -148,8 +148,8 @@ const projects = [
       },
     ],
     image: followMe,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    // repo: '',
+    demo: 'https://stg.followmeacademy.com/#ContactUs',
   },
   {
     id: 'project-2',
@@ -171,7 +171,7 @@ const projects = [
       },
     ],
     image: netPc,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    // repo: '',
     demo: 'https://netpc-f4ad3.web.app/',
   },
   {
@@ -193,7 +193,7 @@ const projects = [
       },
     ],
     image: eventPlanner,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    repo: '',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
  
