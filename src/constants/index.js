@@ -15,10 +15,9 @@ import {
   followMe,
   netPc,
   eventPlanner,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  devK,
+  tsp,
+  netpc,
 } from '../assets';
 
 export const navLinks = [
@@ -116,37 +115,23 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'IT Technician',
+    title: 'IT Analyst & ADMINISTRATION OFFICER & Assistant HR Coordinator',
     company_name: 'Team Source Petroleum',
-    icon: coverhunt,
+    icon: tsp,
     iconBg: '#333333',
-    date: 'Jan 2019 - Jun 2020',
-  },
-  {
-    title: 'HR Coordinator assistant',
-    company_name: 'Team Source Petroleum',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Jul 2020 - Apr 2021',
-  },
-  {
-    title: 'IT engineer',
-    company_name: 'LABORATOIRE FECHKEUR',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'Dec 2021 - Jun 2022',
+    date: 'Jan 2019 - Jun 2021',
   },
   {
     title: 'IT Freelancer',
     company_name: 'NetPC Informatique',
-    icon: dcc,
+    icon: netpc,
     iconBg: '#333333',
     date: 'Mar 2020 - Nov 2023',
   },
   {
     title: 'Web developer',
     company_name: 'Freelancer',
-    icon: dcc,
+    icon: devK,
     iconBg: '#333333',
     date: 'Jun 2022 - Present',
   },

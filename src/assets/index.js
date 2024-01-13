@@ -36,10 +36,9 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import tsp from './company/tsp.png';
+import netpc from './company/netpc.png';
+import devK from './company/devK.png';
 import followMe from './projects/follow-me.png';
 import netPc from './projects/net-pc.png';
 import eventPlanner from './projects/math-magicians.png';
@@ -89,8 +88,7 @@ export {
   movie,
   nyeusi,
   space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  tsp,
+  netpc,
+  devK,
 };
