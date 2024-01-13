@@ -11,6 +11,8 @@ import {
   redux,
   tailwind,
   nodejs,
+  firebase,
+  mongodb,
   git,
   followMe,
   netPc,
@@ -87,30 +89,19 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  /* {
-    name: 'Rails',
-    icon: rubyrails,
+ 
+  {
+    name: 'mongodb',
+    icon: mongodb,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'firebase',
+    icon: firebase,
   },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  }, */
   {
     name: 'git',
     icon: git,
   },
-  /* {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  }, */
 ];
 
 const experiences = [

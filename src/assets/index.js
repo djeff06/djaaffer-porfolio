@@ -23,8 +23,6 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -33,9 +31,8 @@ import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
-import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import firebase from './tech/firebase.png';
+import mongodb from './tech/mongodb.png';
 import tsp from './company/tsp.png';
 import netpc from './company/netpc.png';
 import devK from './company/devK.png';
@@ -69,19 +66,16 @@ export {
   send,
   sendHover,
   css,
-  docker,
-  figma,
   git,
-  graphql,
+  firebase,
   html,
   javascript,
   nodejs,
-  postgresql,
-  rubyrails,
   reactjs,
   redux,
   tailwind,
   typescript,
+  mongodb,
   followMe,
   netPc,
   eventPlanner,
