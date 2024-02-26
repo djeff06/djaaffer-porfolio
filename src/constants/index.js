@@ -106,14 +106,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'IT Analyst & ADMINISTRATION OFFICER & Assistant HR Coordinator',
-    company_name: 'Team Source Petroleum',
-    icon: tsp,
-    iconBg: '#333333',
-    date: 'Jan 2019 - Jun 2021',
-  },
-  {
-    title: 'IT Freelancer',
+    title: 'Consultant IT',
     company_name: 'NetPC Informatique',
     icon: netpc,
     iconBg: '#333333',
@@ -121,11 +114,27 @@ const experiences = [
   },
   {
     title: 'Web developer',
-    company_name: 'Freelancer',
+    company_name: 'DevKnight',
     icon: devK,
     iconBg: '#333333',
-    date: 'Jun 2022 - Present',
+    date: 'Jan 2023 - Feb 2024',
   },
+  {
+    title: 'Assistant HR Coordinator',
+    company_name: 'Team Source Petroleum',
+    icon: tsp,
+    iconBg: '#333333',
+    date: 'Jul 2019 - Apr 2020',
+  },
+  {
+    title: 'IT Analyst',
+    company_name: 'Team Source Petroleum',
+    icon: tsp,
+    iconBg: '#333333',
+    date: 'Fev 2019 - Jul 2019',
+  },
+ 
+  
 ];
 
 const projects = [
